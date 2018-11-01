@@ -51,15 +51,16 @@ html {
 .cards div {
   text-align: center;
 }
- .cards a {
-   display: .5em .75em;
-   background-color: #ccc;
-   border-radius: 4px;
-   color: #000
-   text-decoration: none;
- }
+.cards a {
+  display: inline-block;
+  padding:.5em .75em;
+  background-color: #ccc;
+  border-radius: 4px;
+  color: #000
+  text-decoration: none;
+}
 
- .cards a:hover {
-   background-color: #333
-   color: #fff;
- }
+.cards a:hover {
+  background-color: #333;
+  color: #fff;
+}
